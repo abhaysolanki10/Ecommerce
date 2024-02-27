@@ -1,1 +1,1 @@
-It his my first PHP and academic project with little bit of Frontend and Backend using MYSQL
+It is my first PHP and academic project with a little bit of Frontend HTML and CSS and Backend using MYSQL Along with Javascript authentication
