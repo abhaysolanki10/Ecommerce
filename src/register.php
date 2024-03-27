@@ -1,18 +1,20 @@
-<?php include('server.php') ?>
+<?php include ('server.php') ?>
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Registration system PHP and MySQL</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
+
 <body>
 	<div class="header">
 		<h2>Register</h2>
 	</div>
-	
-	<form method="post" action="register.php">
 
-		<?php include('errors.php'); ?>
+	<form method="post" action="./register.php">
+
+		<?php include ('errors.php'); ?>
 
 		<div class="input-group">
 			<label>Username</label>
@@ -34,8 +36,9 @@
 			<button type="submit" class="btn" name="reg_user">Register</button>
 		</div>
 		<p>
-			Already a member? <a href="login.php">Sign in</a>
+			Already a member? <a href="./login.php">Sign in</a>
 		</p>
 	</form>
 </body>
+
 </html>
